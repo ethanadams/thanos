@@ -3,7 +3,7 @@ module github.com/thanos-io/thanos
 go 1.21
 
 require (
-	cloud.google.com/go/storage v1.30.1 // indirect
+	cloud.google.com/go/storage v1.35.1 // indirect
 	cloud.google.com/go/trace v1.10.4
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.8.3
 	github.com/alecthomas/units v0.0.0-20231202071711-9a357b53e9c9
@@ -126,6 +126,7 @@ require (
 
 require (
 	github.com/bboreham/go-loser v0.0.0-20230920113527-fcc2c21820a3 // indirect
+	github.com/calebcase/tmpfile v1.0.3 // indirect
 	github.com/go-openapi/runtime v0.26.0 // indirect
 	github.com/golang-jwt/jwt/v5 v5.0.0 // indirect
 	github.com/google/s2a-go v0.1.7 // indirect
@@ -134,8 +135,11 @@ require (
 	github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0 // indirect
 	github.com/metalmatze/signal v0.0.0-20210307161603-1c9aa721a97a // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/sercand/kuberesolver/v4 v4.0.0 // indirect
+	github.com/spacemonkeygo/monkit/v3 v3.0.18 // indirect
+	github.com/vivint/infectious v0.0.0-20200605153912-25a574ae18a3 // indirect
+	github.com/zeebo/blake3 v0.2.3 // indirect
+	github.com/zeebo/errs v1.3.0 // indirect
 	github.com/zhangyunhao116/umap v0.0.0-20221211160557-cb7705fafa39 // indirect
 	go.opentelemetry.io/collector/featuregate v1.0.0 // indirect
 	go.opentelemetry.io/collector/pdata v1.0.0 // indirect
@@ -148,6 +152,9 @@ require (
 	k8s.io/client-go v0.28.4 // indirect
 	k8s.io/klog/v2 v2.110.1 // indirect
 	k8s.io/utils v0.0.0-20230711102312-30195339c3c7 // indirect
+	storj.io/common v0.0.0-20220802175255-aae0c09ec9d4 // indirect
+	storj.io/drpc v0.0.32 // indirect
+	storj.io/uplink v1.9.0 // indirect
 )
 
 require (
@@ -256,9 +263,9 @@ require (
 	golang.org/x/oauth2 v0.15.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/tools v0.16.0 // indirect
-	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
+	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	gonum.org/v1/gonum v0.12.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
+	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	howett.net/plist v0.0.0-20181124034731-591f970eefbb // indirect
@@ -281,3 +288,5 @@ replace (
 	k8s.io/klog => github.com/simonpasquier/klog-gokit v0.3.0
 	k8s.io/klog/v2 => github.com/simonpasquier/klog-gokit/v3 v3.0.0
 )
+
+replace github.com/thanos-io/objstore => /Users/ethan/workspace/github/ethan/objstore/
