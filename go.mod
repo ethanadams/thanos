@@ -276,6 +276,9 @@ replace (
 	// Required by Cortex https://github.com/cortexproject/cortex/pull/3051.
 	github.com/bradfitz/gomemcache => github.com/themihai/gomemcache v0.0.0-20180902122335-24332e2d58ab
 
+	// Custom objstore
+	github.com/thanos-io/objstore => github.com/ethanadams/objstore v0.0.0-20240123020502-9644151e7c76
+
 	github.com/vimeo/galaxycache => github.com/thanos-community/galaxycache v0.0.0-20211122094458-3a32041a1f1e
 
 	// Override due to https://github.com/weaveworks/common/issues/239
@@ -288,5 +291,3 @@ replace (
 	k8s.io/klog => github.com/simonpasquier/klog-gokit v0.3.0
 	k8s.io/klog/v2 => github.com/simonpasquier/klog-gokit/v3 v3.0.0
 )
-
-replace github.com/thanos-io/objstore => /Users/ethan/workspace/github/ethan/objstore/
