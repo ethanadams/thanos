@@ -277,7 +277,7 @@ replace (
 	github.com/bradfitz/gomemcache => github.com/themihai/gomemcache v0.0.0-20180902122335-24332e2d58ab
 
 	// Custom objstore
-	github.com/thanos-io/objstore => github.com/ethanadams/objstore v0.0.0-20240123020502-9644151e7c76
+	github.com/thanos-io/objstore => github.com/ethanadams/objstore v0.0.0-20240123155829-3a3798af0ac3
 
 	github.com/vimeo/galaxycache => github.com/thanos-community/galaxycache v0.0.0-20211122094458-3a32041a1f1e
 
